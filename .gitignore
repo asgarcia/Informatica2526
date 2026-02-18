@@ -1,3 +1,5 @@
 *.o
 *.exe
-.idea/*
+.idea/
+.# Ignora la carpeta donde se genera la compilación (suele ser cmake-build-debug o similar)
+ cmake-build-*/
